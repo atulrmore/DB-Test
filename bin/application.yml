@@ -1,0 +1,9 @@
+server:
+  port: 18080
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.db: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
